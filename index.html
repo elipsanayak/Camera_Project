@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <video id="camera" autoplay playsinline></video>
+        <canvas id="canvas"></canvas>
+        
+        <div class="controls">
+            <button id="switchCamera">Switch Camera</button>
+            <button id="capture">📸 Capture</button>
+            <button id="zoomIn">➕ Zoom In</button>
+            <button id="zoomOut">➖ Zoom Out</button>
+            <button id="invert">🔄 Invert Color</button>
+            <button id="flash">💡 Flash</button>
+            <a id="download" download="photo.jpg">💾 Save</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
